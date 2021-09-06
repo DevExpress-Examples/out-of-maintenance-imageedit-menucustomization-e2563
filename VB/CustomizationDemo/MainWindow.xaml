@@ -8,8 +8,10 @@
             <dxe:ImageEdit.MenuTemplate>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <dxe:ImageEditToolButton ToolTip="Grayscale" Click="OnApplyEffectButtonClick" ImageSource="/CustomizationDemo;component/Images/inactive.png" />
-                        <dxe:ImageEditToolButton ToolTip="Normal" Click="OnUndoEffectButtonClick" ImageSource="/CustomizationDemo;component/Images/active.png" />
+                        <dxe:ImageEditToolButton ToolTip="Grayscale" Click="OnApplyEffectButtonClick"
+                            ImageSource="/CustomizationDemo;component/Images/inactive.png" />
+                        <dxe:ImageEditToolButton ToolTip="Normal" Click="OnUndoEffectButtonClick"
+                            ImageSource="/CustomizationDemo;component/Images/active.png" />
                         <dxe:ImageEditToolSeparator />
                         <dxe:ImageEditCopyToolButton />
                         <dxe:ImageEditLoadToolButton />
